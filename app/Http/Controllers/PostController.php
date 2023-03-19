@@ -8,6 +8,7 @@ use App\Models\Category;
 use App\Models\User;
 use App\Models\Profile;
 use App\Models\Friend;
+use Illuminate\Support\Facades\Auth;
 
 class PostController extends Controller
 {
