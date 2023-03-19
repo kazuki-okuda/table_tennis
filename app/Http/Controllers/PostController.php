@@ -11,9 +11,10 @@ use App\Models\Friend;
 
 class PostController extends Controller
 {
-    public function index(User $post)
+    public function index(User $user)
     {
-        return view('posts/index')->with(['posts' => $post->getPaginateByLimit()]);
+        $friends=Auth::user()->follows()->get();
+        return view('posts/index')->with(['friends' => $friends]);
     }
 
     public function show(Profile $post)
