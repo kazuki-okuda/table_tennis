@@ -23,10 +23,14 @@
         <body>
             <div class=bodyContents>
                 <p class=new><a href="/posts/create">新規作成</a></p>
+                 @foreach($friends as $friend)
                 <div class=profile>
-                    <h3>idAさん</h3>
+                   
+                    <h3>{{$friend->name}}</h3>
                     <p class=more>詳細</p>
+                   
                 </div>
+                 @endforeach
             </div>
             <br>
             <br>
