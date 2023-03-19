@@ -1,0 +1,62 @@
+body {
+    background-color: #009900;
+}
+.createTitle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+h2 {
+    font-size: 4vw;
+    padding-left: 7vw;
+    color: #FF0000;
+}
+.createButton {
+    display: flex;
+    padding-top: 3vw;
+    margin-right: 5vw;
+}
+.button {
+    font-size: 1.6vw;
+    margin-left: 10vw;
+    padding-right: 2vw;
+}
+.back {
+    font-size: 1.6vw;
+    margin-left: 10vw;
+    padding-right: 2vw;
+}
+iuput {
+    width: 50px;
+    height: 30px;
+}
+.page {
+    display: flex;
+    justify-content: space-between;
+}
+.section2 {
+    display: flex;
+}
+.name {
+    color: #CCFF99;
+    margin-left: 2vw;
+}
+.birthday {
+    color: #CCFF99;
+    margin-left: 2vw;
+}
+.mail {
+    color: #CCFF99;
+    margin-left: 2vw;
+}
+.more {
+    color: #CCFF99;
+    margin-left: 2vw;
+}
+.createButton2 {
+    margin-top: 0;
+}
+.you {
+    color: #CCFF99;
+    text-align: center
+}
