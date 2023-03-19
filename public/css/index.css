@@ -1,0 +1,48 @@
+header {
+    background-color: #99FF99;
+    padding-top: 2vw;
+}
+.headerContents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    padding-left: 2vw;
+}
+nav {
+    padding-right: 2vw;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    margin-left: 3vw;
+    font-size: 1.4vw;
+    padding-top: 2vw;
+}
+body {
+    background-color: #009900;
+}
+.bodyContents {
+    text-align: center;
+    padding-top: 4vw;
+}
+.new {
+    font-size: 1.4vw;
+    color: #CCFF99;
+    margin: 2vw auto;
+    width: 10%;
+    border: solid 2px #FF3300;
+    
+}
+.profile {
+    background-color: #99FF33;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding: 3vh 4vw;
+}
