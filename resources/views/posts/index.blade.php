@@ -14,15 +14,15 @@
                 <h1>友達プロフィール一覧</h1>
                 <nav>
                     <ul>
-                        <li>My profile</li>
-                　　      <li>友達追加</li>
+                        <li><a href="/posts/create">My profile</a></li>
+                        <li><a href="/posts/create">友達追加</a></li>
             　　      </ul>
         　　      </nav>
             </div>
     　　</header>
         <body>
             <div class=bodyContents>
-                <p class=new>新規作成</p>
+                <p class=new><a href="/posts/create">新規作成</a></p>
                 <div class=profile>
                     <h3>idAさん</h3>
                     <p class=more>詳細</p>
@@ -31,22 +31,7 @@
             <br>
             <br>
             <br>
-            <h1>チーム開発会へようこそ！</h1>
-            <h2>投稿一覧画面</h2>
-            <a href='/posts/create'>新規投稿</a>
-            <div>
-            @foreach ($posts as $post)
-                <div style='border:solid 1px; margin-bottom: 10px;'>
-                    <p>
-                        タイトル：<a href="/posts/{{ $post->id }}">{{ $post->title }}</a>
-                    </p>
-                    <p>カテゴリー：<a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a></p>
-                </div>
-            @endforeach
-            </div>
-            <div>
-            {{ $posts->links() }}
-            </div>
+            
         </body>
     </body>
 </html>
